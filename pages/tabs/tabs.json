@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "mp-searchbar": "../components/searchbar/searchbar",
+    "mp-tabs": "../../components/tabs/index"
+  }
+}

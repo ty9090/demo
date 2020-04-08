@@ -1,0 +1,77 @@
+<view class="page">
+  <view class="page__bd">
+    <mp-searchbar bindselectresult="selectResult" search="{{search}}"></mp-searchbar>
+  </view>
+</view>
+
+<mp-tabs tabs="{{tabs}}" activeTab="{{activeTab}}" swiperClass="weui-tabs-swiper" bindtabclick="onTabCLick" bindchange="onChange" activeClass="tab-bar-title__selected">
+  <!-- <block wx:for="{{tabs}}" wx:key="title">
+    <view class="tab-content" slot="tab-content-{{index}}" > {{item.title}} </view>
+  </block> -->
+</mp-tabs>
+<view class="menu">
+  <view class="menuContent">
+    <image class="menuImg" src="/images/tools/navbg0.png"></image>
+    <text class="menuTxt">第一个</text>
+  </view>
+  <view class="menuContent">
+    <image class="menuImg" src="/images/tools/navbg0.png"></image>
+    <text class="menuTxt">第一个</text>
+  </view>
+  <view class="menuContent">
+    <image class="menuImg" src="/images/tools/navbg0.png"></image>
+    <text class="menuTxt">第一个</text>
+  </view>
+  <view class="menuContent">
+    <image class="menuImg" src="/images/tools/navbg0.png"></image>
+    <text class="menuTxt">第一个</text>
+  </view>
+  <view class="menuContent">
+    <image class="menuImg" src="/images/tools/navbg0.png"></image>
+    <text class="menuTxt">第一个</text>
+  </view>
+  <view class="menuContent">
+    <image class="menuImg" src="/images/tools/navbg0.png"></image>
+    <text class="menuTxt">第一个</text>
+  </view>
+  <view class="menuContent">
+    <image class="menuImg" src="/images/tools/navbg0.png"></image>
+    <text class="menuTxt">第一个</text>
+  </view>
+  <view class="menuContent">
+    <image class="menuImg" src="/images/tools/navbg0.png"></image>
+    <text class="menuTxt">第一个</text>
+  </view>
+  <view class="menuContent">
+    <image class="menuImg" src="/images/tools/navbg0.png"></image>
+    <text class="menuTxt">第一个</text>
+  </view>
+  <view class="menuContent">
+    <image class="menuImg" src="/images/tools/navbg0.png"></image>
+    <text class="menuTxt">第一个</text>
+  </view>
+</view>
+<view class="content">
+  <text class="contentTxt1">新手指南</text>
+  <text class="contentTxt2"> > </text>
+</view>
+
+<view class="footer">
+  <view class="footerTop">
+    <image class="footerImg" src="/images/tools/navbg0.png"></image>
+    <text class="footerTxt1">影</text>
+    <text class="footerTxt2">详情了解</text>
+  </view>
+  <view class="footerMiddle">
+    <text>随着小程序的普及，微信也有很多内部小程序在开发，每个小程序都需要从零到1进行开发设计，而这个过程中，有大量的UI交互是重复的，另外，微信内部已经有一套H5版本的WeUI样式库。综合考虑，我们基于WeUI样式库开发了小程序版本的UI组件库，在内部多个小程序项目已经使用OK的情况下，我们把这套组件库开源让外部开发者也可以使用，欢迎大家Star以及提Issue。</text>
+    <view class="footerContent">
+      <text>要求：</text>
+      <text class="footerContentTxt">描述一</text>
+      <text class="footerContentTxt">描述二</text>
+    </view>
+    <view class="footerBottom">
+    <text class="footerBottomTxt1">2012.12.12 14:58</text>
+    <text class="footerBottomTxt2">赏金: ￥100.0元</text>
+    </view>
+  </view>
+</view>

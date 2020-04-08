@@ -1,0 +1,147 @@
+@import '../common.wxss';
+
+page {
+  background-color: #fff;
+  height: 100%;
+}
+
+.weui-tabs-bar__wrp {
+  border-bottom: 1px solid #eee;
+  margin-top: 10px;
+}
+
+.weui-tabs-swiper {
+  width: 100%;
+  height: 10rpx;
+}
+
+.tab-content {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 40rpx;
+}
+
+.weui-tabs-bar__title {
+  margin: 0px 10px;
+}
+
+.tab-bar-title__selected {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.menu {
+  margin-top: 20rpx;
+  width: 100%;
+  height: 320rpx;
+  border-radius: 20rpx 20rpx;
+  text-align: center;
+}
+
+.menu .menuContent {
+  display: inline-block;
+  padding-left: 30rpx;
+}
+
+.menu .menuImg {
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.menu .menuTxt {
+  display: block;
+}
+
+.content {
+  width: 100%;
+  height: 120rpx;
+  margin-top: 40rpx;
+  background: #f4f4f4;
+  border-radius: 20rpx;
+}
+
+.content .contentTxt1 {
+  line-height: 100rpx;
+  font-size: 50rpx;
+  font-weight: bold;
+  margin-bottom: 100rpx;
+}
+
+.content .contentTxt2 {
+  float: right;
+  line-height: 100rpx;
+  font-size: 50rpx;
+  font-weight: bold;
+  margin-bottom: 100rpx;
+}
+
+.footer {
+  width: 100%;
+  height: 400rpx;
+  margin-top: 20rpx;
+}
+
+.footer .footerTop {
+  width: 100%;
+  height: 100rpx;
+}
+
+.footer .footerTop .footerImg {
+  width: 100rpx;
+  height: 100rpx;
+  float: left;
+  padding: 0 20rpx;
+}
+
+.footer .footerTop .footerTxt1 {
+  font-size: 40rpx;
+  font-weight: bold;
+  color: blue;
+}
+
+.footer .footerTop .footerTxt2 {
+  font-size: 30rpx;
+  display: block;
+}
+
+.footer .footerMiddle {
+  width: 100%;
+  height: 160rpx;
+  border-bottom: 1rpx solid #000;
+}
+
+.footer .footerMiddle text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.footer .footerMiddle .footerContent{
+  padding: 0 20rpx; 
+  font-weight: bold;
+  font-size: 40rpx;
+  display: flex;
+  margin-bottom: 10rpx;
+  margin-top: 40rpx;
+
+}
+.footer .footerMiddle .footerContent .footerContentTxt{
+  color: white;
+  display: inline-flex;
+  margin-left: 20rpx;
+  background-color: blue;
+  border-radius: 20rpx;
+}
+.footer .footerBottom .footerBottomTxt1{
+  float: left;
+  padding-left: 20rpx;
+}
+.footer .footerBottom .footerBottomTxt2{
+  float: right;
+  padding-right: 20rpx;
+  color: #5F9EA0;
+}
